@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print# | 프린트샾</title>
+    <!-- css파일연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <!-- navbar안에 컨테이너 생성 -->
+        <div class="container">
+            <!-- href="#" 링크 # // 화면이 리로드 되지 않는다 -->
+            <!-- 색을 넣기위해 span tag사용한다 (inline tag) -->
+            <a class="logo" href="#">Print <span>#</span></a>
+            
+            <!-- 이미지 추가 -->
+            <!-- id는 js에서 사용하기 위해 (id는 반복사용 불가)  -->
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Close Navigation">
+
+            <nav>
+                <!-- 나가기 추가 -->
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Open Navigation">
+                <!-- 앞에 번호가 필요 없기 때문에 ul을 사용  -->
+                <ul class="primary-nav">
+                    <!-- css효과를 주기위해 class를 추가 -->
+                    <li class="current"><a href="#">홈</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">제품안내</a></li>
+                    <li><a href="#">가격표</a></li>
+                    <li><a href="#">작업가이드</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">로그인</a></li>
+                    <!-- Go Premium에 css효과를 주기위해 class추가 -->
+                    <li class="go-premium-cta"><a href="#">회원가입</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- 첫번째 section -->
+    <section class="hero">
+        <div class="container">
+            <!-- sub헤드라인 -->
+            <div class="left-col">
+                <!-- &amp; = & -->
+                <p class="subhead">It's Nitty &amp; Gritty</p>
+                <h1>가장 효율적인 인쇄소 프린트 <span>#</span></h1>
+
+                <!-- 헤드라인 아래 box -->
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">주문하기</a>
+                </div>     
+            </div>
+
+            <!-- 오른쪽에 배치할 메인 이미지 -->
+            <img src="images/photocopy.svg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <!-- 두번째 section -->
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>경쟁력있는 가격</li>
+                <li>언제나 특급 배송</li>
+                <li>품질 보증 약속</li>
+                <li>쉽고 빠른 제작</li>
+                <li>모바일에서도 주문 가능</li>
+                <li>자체 생산시설 완비</li>
+            </ul>
+
+            <img src="images/printing.svg" alt="Experts">
+        </div>
+    </section>
+
+    <!-- 세번째 section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <!-- 이미지 추가 -->
+                    <img src="images/male.svg" alt="Person">
+                    <!-- blockquote : 인용구를 쓸 때 사용되는 요소 -->
+                    <blockquote> 디지털 인쇄는 처음이라 긴장했는데, 체계적이고 깔끔한 프린트샾 사이트 덕분에 표지, 
+                        재질, 제본방식 등등 엄청 꼼꼼하게 체크하면서 간편하게 진행할 수 있었습니다. 
+                        품질에 큰 기대를 하지 않았는데, 배송을 받고 깜짝 놀랐답니다. 
+                        완벽한 제본상태와 깨끗한 출력이 너무 마음에 들었어요. "</blockquote>
+                    <!-- cite : 참조글의 출처를 이탤릭체로 표시. -->
+                    <cite>jando*****</cite>
+                </li>
+                <li>
+                    <!-- 이미지 추가 -->
+                    <img src="images/woman.svg" alt="Person">
+                    <!-- blockquote : 인용구를 쓸 때 사용되는 요소 -->
+                    <blockquote>책 소량제작을 북토리에 맡겨서 도착했는데
+                        진짜 표지 색이랑 코팅이 너무 예쁘게 되어서 기분이 좋아요!!
+                        진심 가격 / 품질 / 배송 속도 만족도 200%
+                        앞으로도 소량인쇄 제작 맡길때 프린트샾으로 올 거 같습니다ㅋㅋ</blockquote>
+                    <!-- cite : 참조글의 출처를 이탤릭체로 표시. -->
+                    <cite>mini9*****</cite>
+                </li>
+                <li>
+                    <!-- 이미지 추가 -->
+                    <img src="images/female.svg" alt="Person">
+                    <!-- blockquote : 인용구를 쓸 때 사용되는 요소 -->
+                    <blockquote>인터넷 검색을 통하여 알게 된 프린트샾!
+                        사이트에 페이지 수와 원하는 아웃라인을 정하면
+                        바로 견적을 볼 수 있었는데..웬걸!
+                        교내 복사실의 절반 보다도 훨씬 저렴했다..!
+                        후기 역시 아주 좋았고, 무엇보다도 온라인 상이지만
+                        주문 후에 나의 담당자가 생긴다는 점이 맘에 들었다
+                        </blockquote>
+                    <!-- cite : 참조글의 출처를 이탤릭체로 표시. -->
+                    <cite>wooky*****</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 네번째 section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>견적상담</h2>
+
+                <form action="">
+                    <!-- for의 값과 id 값을 일치시킨 경우, 텍스트 부분을 클릭해도 클릭이 된다 -->
+                    <label for="name">이름</label>
+                    <input type="text" name="name" id="name">
+                    
+                    <!-- type=""에 형식을 입력시 다른 형식이 입력되면 알려준다 -->
+                    <label for="message">내용</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    
+                    <input type="submit" class="send-message-cta" value="보내기">
+                </form>
+            </div>
+
+            <!-- Google Map 추가 -->
+            <div class="contact-right">
+                <!-- 구글맵에 접속해 Share -> Embed a map 을 Copy해서 아래처럼 코드에 붙여넣는다 -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.3114112666544!2d126.9619817658074!3d37.47697703869475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca0251fc2f995%3A0x4fae98155a5d5d84!2z64KZ7ISx64yA7Jet!5e0!3m2!1sen!2skr!4v1621506959523!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript코드 시작 -->
+    <script>
+        
+        // mobileBtn 함수 선언
+        const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav')
+            mobileBtnExit = document.getElementById('mobile-exit');
+
+        // arrow function, 클릭시 아래 코드 실행
+        mobileBtn.addEventListener('click', () =>{
+            nav.classList.add('menu-btn'); //메뉴창 열기
+        })
+        
+        mobileBtnExit.addEventListener('click', () =>{
+            nav.classList.remove('menu-btn'); // 메뉴창 닫기
+        })
+
+    </script>
+
+</body>
+</html>
