@@ -14,7 +14,7 @@ Built with:
 
 - Menu 
 - Responsive
-- hover  
+- Hover  
 - Map
 - Massage
 
